@@ -1,5 +1,5 @@
 var Sequelize = require('sequelize');
-var db = require(__dirname + '/../db/db.js');
+var db = require(__dirname + '../config/db.js');
 
 var User = db.define('User',
   {
@@ -8,9 +8,9 @@ var User = db.define('User',
       defaultValue: Sequelize.UUIDV1,
       primaryKey: true
     },
-    googleUserId: {
+    email: {
       type: Sequelize.STRING,
-      field: 'google_user_id'
+      field: 'email'
     },
     firstName: {
       type: Sequelize.STRING,
