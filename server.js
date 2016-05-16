@@ -22,7 +22,7 @@ var connected = {};
 io.on('connection', (socket) => {
 
   socket.on('connectedFacebookId', function(facebookId) {
-    // socket.join(facebookId);
+    // socket.join(facebookId);//
 
     connected[facebookId] = socket.id;
     console.log('Connected: ', connected);
