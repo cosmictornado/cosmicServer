@@ -2,7 +2,8 @@ const MatchRequest = require('../models/matchRequest.js');
 const User = require('../models/user.js');
 const Match = require('../models/match.js');
 const walletController = require('./walletController.js');
-
+const Profile = require('../models/profile.js');
+const Fitness = require('../models/fitness.js');
 
 module.exports.saveOne = (req, res) => {
   const facebookId = req.body.facebookId;
@@ -34,7 +35,7 @@ module.exports.saveOne = (req, res) => {
                 toUserId: likedUserId,
               }).then(() => {
                 // Find the likedUser information
-                User.findAll({
+                User.findOne({
                   where: {
                     id: likedUserId,
                   },
