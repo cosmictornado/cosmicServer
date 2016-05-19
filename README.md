@@ -36,24 +36,26 @@
 - Mocha
 
 ## Mockups
-
 <img width="1027" alt="screen shot 2016-05-19 at 2 27 35 pm" src="https://cloud.githubusercontent.com/assets/14812931/15410755/6513fbec-1dd0-11e6-88e1-df928af87283.png">
 
-## Development
+### Installation
+- 1. Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
+- 2. npm install in root of both directories.
+- 3. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
 
-### Installing dependencies
-- 2. Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
-- 3. npm install in root of both directories.
-- 4. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+### Database Setup & Architecture
+##### Schema Design
+<img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
 
-### Setting up the Database
+##### Setup
 In the terminal, navigate to the root directory:
 - 1. ```createdb cosmictornado``` to create a database
 - 2. ```nodemon server.js``` to start the server and link the tables to the database
-
-### Schema Design
-
-<img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
+- 
+##### Seeding the Database
+- For testing, seed the database tables from csv files
+- Go to the PosgreSQL command line
+- ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
 
 ### PostgreSQL Command Cheatsheet
 - ```createdb _databasename_``` to create a new database called databasename
@@ -67,11 +69,6 @@ In the terminal, navigate to the root directory:
 - ```SELECT * from _tablename_;``` to show all rows in a table
 - ```\t``` to toggle table to show column names if they're not showing up
 
-### Seeding the Database
-- For testing, seed the database tables from csv files
-- Go to the PosgreSQL command line
-- ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
-
 ### High level architecture
 ![](http://i.imgur.com/eCUkBBx.png)
 
@@ -81,7 +78,6 @@ In the terminal, navigate to the root directory:
 ### Installing Dependencies
 - ```npm install```
 - ```rnpm link``` to automatically link most iOS dependencies
-
 
 ### Roadmap
 View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
