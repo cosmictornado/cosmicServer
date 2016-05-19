@@ -26,8 +26,25 @@
 
 - Node 5.8.x
 - PostgreSQL 9.5.x
-- etc
-- etc
+- Sequelize 3.22.0
+- Socket.io 1.4.6
+- Socket.io-client 1.4.6
+- Chai 3.5.0
+- Mocha 2.4.5
+- React 0.14.8
+- React-native 0.24.1
+- React-redux 4.4.5
+- Redux 3.5.2
+- Redux-logger 2.6.1
+- React-native-animatable 0.6.0
+- React-native-communications 1.0.1
+- React-native-facebook-login 1.0.3
+- React-native-gifted-messenger 0.1.3
+- React-native-search-bar 2.10.0
+- React-native-swipeout 2.0.12
+- React-native-swiper 1.4.3
+- React-native-vector-icons 1.3.4
+- React-timer-mixin 0.13.3
 
 ## Example
 
@@ -40,7 +57,9 @@
 ## Development
 
 ### Installing dependencies
-1. Install PostgreSQL following this tutorial: (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+- 2. Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
+- 3. npm install in root of both directories.
+- 4. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
 
 ### Setting up the Database
 In the terminal, navigate to the root directory:
@@ -63,6 +82,11 @@ In the terminal, navigate to the root directory:
 - ```SELECT * from _tablename_;``` to show all rows in a table
 - ```\t``` to toggle table to show column names if they're not showing up
 
+### Seeding the Database
+- For testing, seed the database tables from csv files
+- Go to the PosgreSQL command line
+- ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
+
 ### High level architecture
 ![](http://i.imgur.com/eCUkBBx.png)
 
@@ -75,7 +99,6 @@ In the terminal, navigate to the root directory:
 
 
 ### Roadmap
-
 View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
 
 
