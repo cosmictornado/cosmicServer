@@ -31,6 +31,12 @@
 
 ## Example
 
+![papayatary2](https://cloud.githubusercontent.com/assets/14812931/15410674/ebef9a8c-1dcf-11e6-9250-50e7dfe0309e.gif)
+
+## Mockups
+
+
+
 ## Development
 
 ### Installing dependencies
