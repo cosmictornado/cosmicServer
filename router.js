@@ -39,7 +39,6 @@ module.exports = (app, express) => {
   app.post('/api/profile', profileController.saveOne);
   app.post('/api/profile', profileController.fetchOne);
 
-  app.post('/api/match', matchController.saveOne);
   app.get('/api/match', matchController.fetchAll);
   app.delete('/api/match', matchController.deleteOne);
   app.get('/api/match/lastMessage', matchController.fetchLast);
