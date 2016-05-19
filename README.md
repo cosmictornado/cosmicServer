@@ -62,6 +62,9 @@ From within the root directory:
 - SELECT * from _tablename_ (show all rows in a table)
 - \t (toggle table to show column names if they're not showing up)
 
+### High level architecture
+![](http://i.imgur.com/eCUkBBx.png)
+
 ## Testing
 - In terminal, *mocha* to run tests
 
