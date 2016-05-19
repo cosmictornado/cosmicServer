@@ -1,6 +1,10 @@
-# Cosmic Server
+# Papayatary
 
-> Pithy project description
+> Fitness Dating Mobile App
+
+## Introduction
+
+> Papaytary is a mobile application that allows users to like one another by sending Fitbit steps. Users accumulate steps and other activity data while wearing their Fitbit. New steps are added to users' wallets each time they open the mobile app. Users can then send steps to other users in order to like them. If two users send steps to each other, they are matched and can send each other messages.
 
 ## Team
 
