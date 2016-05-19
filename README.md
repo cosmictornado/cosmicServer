@@ -44,12 +44,14 @@
 
 ### Setting up the Database
 From within the root directory:
+1. In terminal, ```createdb cosmictornado``` to create a database
+1. In terminal, ```nodemon server.js``` to start the server and link the tables to the database
 
-1. In terminal, *createdb cosmictornado* to create a database
-1. In terminal, *nodemon server.js* to start the server and link the tables to the database
+### Schema Design
 
+<img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
 
-## PostgreSQL Command Cheatsheet
+### PostgreSQL Command Cheatsheet
 - createdb _databasename_ (create a new database called databasename)
 - dropdb _databasename_ (delete an existing database)
 - psql (enter PostgreSQL command line)
