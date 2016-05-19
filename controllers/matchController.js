@@ -1,3 +1,4 @@
+const Message = require('../models/message.js');
 const Match = require('../models/match.js');
 const MatchDelete = require('../models/matchDelete.js');
 const User = require('../models/user.js');
@@ -47,7 +48,6 @@ module.exports.fetchAll = (req, res) => {
       });
 
   });
-
 };
 
 module.exports.deleteOne = (req, res) => {
@@ -74,4 +74,11 @@ module.exports.deleteOne = (req, res) => {
         })
       })
   });
+};
+
+
+module.exports.fetchLast = (req, res) => {
+  console.log('made it');
+  res.status(200).json({});
+
 };
