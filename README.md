@@ -40,38 +40,38 @@
 ## Development
 
 ### Installing dependencies
-1. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+1. Install PostgreSQL following this tutorial: (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
 
 ### Setting up the Database
-From within the root directory:
-1. In terminal, ```createdb cosmictornado``` to create a database
-1. In terminal, ```nodemon server.js``` to start the server and link the tables to the database
+In the terminal, navigate to the root directory:
+- 1. ```createdb cosmictornado``` to create a database
+- 2. ```nodemon server.js``` to start the server and link the tables to the database
 
 ### Schema Design
 
 <img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
 
 ### PostgreSQL Command Cheatsheet
-- createdb _databasename_ (create a new database called databasename)
-- dropdb _databasename_ (delete an existing database)
-- psql (enter PostgreSQL command line)
-- \list (list all databases)
-- \connect (switch databases)
-- \dt (show all tables)
-- \q (exit psql command line)
-
-- \d _tablename_ (show table column names)
-- SELECT * from _tablename_ (show all rows in a table)
-- \t (toggle table to show column names if they're not showing up)
+- ```createdb _databasename_``` to create a new database called databasename
+- ```dropdb _databasename_``` to delete an existing database
+- ```psql _databasename_``` to enter PostgreSQL command line
+- ```\list``` to list all databases
+- ```\connect``` to switch databases
+- ```\dt``` to show all tables
+- ```\q``` to exit psql command line
+- ```\d _tablename_``` to show table column names
+- ```SELECT * from _tablename_;``` to show all rows in a table
+- ```\t``` to toggle table to show column names if they're not showing up
 
 ### High level architecture
 ![](http://i.imgur.com/eCUkBBx.png)
 
 ## Testing
-- In terminal, *mocha* to run tests
+- In terminal, ```mocha``` to run tests
 
 ### Installing Dependencies
-
+- ```npm install```
+- ```rnpm link``` to automatically link most iOS dependencies
 
 
 ### Roadmap
