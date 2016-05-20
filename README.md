@@ -39,15 +39,15 @@
 <img width="1027" alt="screen shot 2016-05-19 at 2 27 35 pm" src="https://cloud.githubusercontent.com/assets/14812931/15410755/6513fbec-1dd0-11e6-88e1-df928af87283.png">
 
 ### Installation
-- 1. Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
-- 2. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
-- 3. ```npm install``` in root of both directories.
-- 4. ```nodemon server.js``` to start the server and link the tables to the database
+- Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
+- Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+- ```npm install``` in root of both directories.
+- ```nodemon server.js``` to start the server and link the tables to the database
 
 ### Database Setup
 In the terminal, navigate to the root directory of the server repository:
-- 1. ```createdb _databasename_``` to create a database
-- 2. To seed the database from csv files for testing purposes:
+- ```createdb _databasename_``` to create a database
+- To seed the database from csv files for testing purposes:
   - ```psql _databasename_``` to go to the PosgreSQL command line
   - ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
 
