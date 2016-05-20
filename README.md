@@ -77,22 +77,22 @@ In the terminal, navigate to the root directory of the server repository:
 - ```rnpm link``` to automatically link most iOS dependencies
 
 ### Roadmap
-View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
+View the project roadmap [**here**] (https://waffle.io/cosmictornado/cosmictornado)
+[Papayatary] was built using waffle.io as the project organization tool.
 
 ## Team
 
-  - __Product Owner__: Haoming Huang [**Haoming Huang**](https://github.com/haomingh)
-  - __Scrum Master__: Laura Curley [**Laura Curley**](https://github.com/lauracurley)
+  - __Product Owner__: [**Haoming Huang**](https://github.com/haomingh)
+  - __Scrum Master__: [**Laura Curley**](https://github.com/lauracurley)
   - __Development Team Members__: [**Kenneth Montgomery**] (https://github.com/BigBroken)
 
 ## Contributing
-**INSERT contributing workflow steps or link here**
-[APP NAME] was built using waffle.io as the project organization tool.
-Please visit the [GITFLOW.MD](GITFLOW.md) for our workflow guidelines.
+
 
 ## Questions and Issues
-For any issues, please refer to [**our issues page**](https://github.com/cosmictornado/cosmicServer/issues)
-Please direct any questions regarding [Papayatary] to [**our wiki page**](https://github.com/[INSERT TEAM]/[INSERT REPO]/wiki)
+For any issues, please refer to [**our issues page**](https://github.com/cosmictornado/cosmicServer/issues).
+
+Please direct any questions regarding [Papayatary] to [**our wiki page**](https://github.com/cosmictornado/cosmicServer/wiki).
 
 ### License
 Distributed under the MIT License.
