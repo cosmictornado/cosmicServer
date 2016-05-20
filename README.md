@@ -81,18 +81,17 @@ View the project roadmap [**here**] (https://waffle.io/cosmictornado/cosmictorna
 [Papayatary] was built using waffle.io as the project organization tool.
 
 ## Team
-
   - __Product Owner__: [**Haoming Huang**](https://github.com/haomingh)
   - __Scrum Master__: [**Laura Curley**](https://github.com/lauracurley)
   - __Development Team Members__: [**Kenneth Montgomery**] (https://github.com/BigBroken)
 
 ## Contributing
-
+Learn how to contribute [**here**].(https://github.com/cosmictornado/cosmicServer/blob/master/CONTRIBUTING.md)
 
 ## Questions and Issues
-For any issues, please refer to [**our issues page**](https://github.com/cosmictornado/cosmicServer/issues).
+For any issues, please refer to [**our issues page**].(https://github.com/cosmictornado/cosmicServer/issues).
 
-Please direct any questions regarding [Papayatary] to [**our wiki page**](https://github.com/cosmictornado/cosmicServer/wiki).
+Please direct any questions regarding [Papayatary] to [**our wiki page**].(https://github.com/cosmictornado/cosmicServer/wiki).
 
 ### License
 Distributed under the MIT License.
