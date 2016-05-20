@@ -40,22 +40,16 @@
 
 ### Installation
 - 1. Fork and clone both repositories.(https://github.com/cosmictornado/cosmictornado) (https://github.com/cosmictornado/cosmicServer)
-- 2. npm install in root of both directories.
-- 3. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+- 2. Install PostgreSQL following this tutorial (https://www.codefellows.org/blog/three-battle-tested-ways-to-install-postgresql)
+- 3. ```npm install``` in root of both directories.
+- 4. ```nodemon server.js``` to start the server and link the tables to the database
 
-### Database Setup & Architecture
-##### Schema Design
-<img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
-
-##### Setup
-In the terminal, navigate to the root directory:
-- 1. ```createdb cosmictornado``` to create a database
-- 2. ```nodemon server.js``` to start the server and link the tables to the database
-- 
-##### Seeding the Database
-- For testing, seed the database tables from csv files
-- Go to the PosgreSQL command line
-- ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
+### Database Setup
+In the terminal, navigate to the root directory of the server repository:
+- 1. ```createdb _databasename_``` to create a database
+- 2. To seed the database from csv files for testing purposes:
+  - ```psql _databasename_``` to go to the PosgreSQL command line
+  - ```COPY users FROM '../../../../Path/To/File/Relative/To/psql/Location/users.csv' ( FORMAT CSV, DELIMITER(',') );``` 
 
 ### PostgreSQL Command Cheatsheet
 - ```createdb _databasename_``` to create a new database called databasename
@@ -68,6 +62,9 @@ In the terminal, navigate to the root directory:
 - ```\d _tablename_``` to show table column names
 - ```SELECT * from _tablename_;``` to show all rows in a table
 - ```\t``` to toggle table to show column names if they're not showing up
+
+### Schema Design
+<img width="1023" alt="screen shot 2016-05-19 at 2 56 48 pm" src="https://cloud.githubusercontent.com/assets/14812931/15411224/673af13e-1dd3-11e6-8b0a-c0db47e9b59c.png">
 
 ### High level architecture
 ![](http://i.imgur.com/eCUkBBx.png)
