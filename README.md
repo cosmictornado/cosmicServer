@@ -69,7 +69,7 @@ In the terminal, navigate to the root directory of the server repository:
 ### High level architecture
 ![](http://i.imgur.com/eCUkBBx.png)
 
-## Testing
+### Testing
 - In terminal, ```mocha``` to run tests
 
 ### Installing Dependencies
@@ -77,20 +77,19 @@ In the terminal, navigate to the root directory of the server repository:
 - ```rnpm link``` to automatically link most iOS dependencies
 
 ### Roadmap
-View the project roadmap [**here**](https://waffle.io/cosmictornado/cosmictornado)
+View the project roadmap [**here**](https://waffle.io/cosmictornado/cosmictornado).
 Papayatary was built using waffle.io as the project organization tool.
 
-## Team
+### Team
   - __Product Owner__: [**Haoming Huang**](https://github.com/haomingh)
   - __Scrum Master__: [**Laura Curley**](https://github.com/lauracurley)
   - __Development Team Members__: [**Kenneth Montgomery**] (https://github.com/BigBroken)
 
-## Contributing
-Learn how to contribute [**here**](https://github.com/cosmictornado/cosmicServer/blob/master/CONTRIBUTING.md)
+### Contributing
+Learn how to contribute [**here**](https://github.com/cosmictornado/cosmicServer/blob/master/CONTRIBUTING.md).
 
-## Questions and Issues
+### Questions and Issues
 For any issues, please refer to [**our issues page**](https://github.com/cosmictornado/cosmicServer/issues).
-
 Please direct any questions regarding Papayatary to [**our wiki page**](https://github.com/cosmictornado/cosmicServer/wiki).
 
 ### License
