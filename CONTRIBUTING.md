@@ -23,6 +23,6 @@
   1. **LOCAL** || git push origin feature-IssueThatYouWereAssigned
 
 
-### SCRUM MASTER // SECOND SET OF EYES
+### Scrum Master or Product Owner
 1. review changes and merge
 1. merge request
