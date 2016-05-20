@@ -91,7 +91,7 @@ View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
 Please visit the [GITFLOW.MD](GITFLOW.md) for our workflow guidelines.
 
 ## Questions and Issues
-For any issues, please refer to [**our issues page**](https://github.com/[INSERT TEAM]/[INSERT REPO]/issues)
+For any issues, please refer to [**our issues page**](https://github.com/cosmictornado/cosmicServer/issues)
 Please direct any questions regarding [Papayatary] to [**our wiki page**](https://github.com/[INSERT TEAM]/[INSERT REPO]/wiki)
 
 ### License
