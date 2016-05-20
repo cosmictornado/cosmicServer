@@ -81,9 +81,9 @@ View the project roadmap [here](LINK_TO_PROJECT_ISSUES)
 
 ## Team
 
-  - __Product Owner__: Haoming Huang [**Haoming Huang**](https://github.com/haoming)
+  - __Product Owner__: Haoming Huang [**Haoming Huang**](https://github.com/haomingh)
   - __Scrum Master__: Laura Curley [**Laura Curley**](https://github.com/lauracurley)
-  - __Development Team Members__: Kenneth Montgomery
+  - __Development Team Members__: [**Kenneth Montgomery**] (https://github.com/BigBroken)
 
 ## Contributing
 **INSERT contributing workflow steps or link here**
